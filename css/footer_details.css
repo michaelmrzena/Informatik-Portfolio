@@ -19,6 +19,10 @@ footer{
   color: #fff;
 }
 
+.bottom-img{
+  padding-bottom: 75px !important;
+}
+
 .fluid-container{
   background-color: #fafafa;
 }
