@@ -40,6 +40,30 @@ footer{
 .footer-grey{
   background-color: #fafafa;
 }
+
+.social-media-container{
+  /* background-color: red; */
+  width: 100%;
+}
+
+.social-media-container img{
+  /* background-color: green; */
+  margin-top: 13px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 33px;
+  height: 33px;
+  float: right;
+}
+
+.icon-container{
+  background-color: green;
+  position: relative;
+  left: 105px;
+}
+
+
+
 /*
 
 footer p{
