@@ -7,17 +7,20 @@
   <title>About</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/about.css">
-  <link rel="stylesheet" href="../css/carousel.css">
-  <link rel="stylesheet" href="../css/page_transition.css">
-  <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/mouse.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
   <link rel="shorcut icon" type="image/png" href="../img/favicon.png">
 </head>
 
 <body>
-
   <!-- Elemente für Custom Cursor -->
   <div class="cursor"></div>
   <div class="cursor-follower"></div>
@@ -25,126 +28,405 @@
   <div class="cursor-follower"></div>
 
   <header>
+
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="home.html">Michael Mrzena</a>
+      <a class="navbar-brand" href="../index.html" id="white-please">Michael Mrzena</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item active">
+            <a class="nav-link white-please activate" href="../index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link activate" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link white-please" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link white-please" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <!-- Footer -->
-  <footer class="page-footer font-small blue pt-4">
+  <!--/ Intro Skew Star /-->
+ <div id="home" class="intro route bg-image" style="background-image: url(../img/mike1.png)">
+   <div class="overlay-itro"></div>
+   <div class="intro-content display-table">
+     <div class="table-cell">
+       <div class="container">
+         <!--<p class="display-6 color-d">Hello, world!</p>-->
+         <h1 class="intro-title mb-4 title">Hello, my Name is<br>Michael Mrzena</h1>
+         <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+         <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+       </div>
+     </div>
+   </div>
+ </div>
+ <!--/ Intro Skew End /-->
 
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
+ <section id="about" class="about-mf sect-pt4 route">
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+         <div class="box-shadow-full">
+           <div class="row">
+             <div class="col-md-6">
+               <div class="row">
+                 <div class="col-sm-6 col-md-5">
+                   <div class="about-img">
+                     <img src="../img/mike2.png" class="img-fluid rounded b-shadow-a" alt="">
+                   </div>
+                 </div>
+                 <div class="col-sm-6 col-md-7">
+                   <div class="about-info">
+                     <p><span class="title-s">Name: </span> <span>Michael Mrzena</span></p>
+                     <p><span class="title-s">Profile: </span> <span>Lehrling Mediamatiker EFZ</span></p>
+                     <p><span class="title-s">Email: </span> <span>mike.mrzena@gmail.com</span></p>
+                     <p><span class="title-s">Phone: </span> <span>078 855 54 16</span></p>
+                   </div>
+                 </div>
+               </div>
+               <div class="skill-mf">
+                 <p class="title-s">Skills</p>
+                 <span>3D Animation</span> <span class="pull-right">90%</span>
+                 <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="85" aria-valuemin="0"
+                     aria-valuemax="100"></div>
+                 </div>
+                 <span>Visual Effects</span> <span class="pull-right">55%</span>
+                 <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="75" aria-valuemin="0"
+                     aria-valuemax="100"></div>
+                 </div>
+                 <span>Photography/Cinematography</span> <span class="pull-right">50%</span>
+                 <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                     aria-valuemax="100"></div>
+                 </div>
+                 <span>Web-Design</span> <span class="pull-right">40%</span>
+                 <div class="progress">
+                   <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="90" aria-valuemin="0"
+                     aria-valuemax="100"></div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-6">
+               <div class="about-me pt-4 pt-md-0">
+                 <div class="title-box-2">
+                   <h5 class="title-left">
+                     About me
+                   </h5>
+                 </div>
+                 <p class="lead">
+                   Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                   imperdiet et, porttitor
+                   at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                   porttitor accumsan tincidunt.
+                 </p>
+                 <p class="lead">
+                   Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                   porttitor volutpat. Vestibulum
+                   ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                 </p>
+                 <p class="lead">
+                   Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                   Nulla porttitor accumsan
+                   tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                 </p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
 
-      <!-- Grid row -->
-      <div class="row footer-grey">
+ <!--/ Section Services Star /-->
+ <section id="service" class="services-mf route">
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+         <div class="title-box text-center">
+           <h3 class="title-a">
+             Services
+           </h3>
+           <p class="subtitle-a">
+             These are the Services I provide at the moment.
+           </p>
+           <div class="line-mf"></div>
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-md-4">
+         <div class="service-box">
+           <div class="service-ico">
+             <span class="ico-circle"><i class="ion-monitor"></i></span>
+           </div>
+           <div class="service-content">
+             <h2 class="s-title">3D Animation</h2>
+             <p class="s-description text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+               provident vitae! Magni
+               tempora perferendis eum non provident.
+             </p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="service-box">
+           <div class="service-ico">
+             <span class="ico-circle"><i class="ion-code-working"></i></span>
+           </div>
+           <div class="service-content">
+             <h2 class="s-title">3D Asset Creation</h2>
+             <p class="s-description text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+               provident vitae! Magni
+               tempora perferendis eum non provident.
+             </p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="service-box">
+           <div class="service-ico">
+             <span class="ico-circle"><i class="ion-camera"></i></span>
+           </div>
+           <div class="service-content">
+             <h2 class="s-title">Visual Effects</h2>
+             <p class="s-description text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+               provident vitae! Magni
+               tempora perferendis eum non provident.
+             </p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="service-box">
+           <div class="service-ico">
+             <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+           </div>
+           <div class="service-content">
+             <h2 class="s-title">Photography</h2>
+             <p class="s-description text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+               provident vitae! Magni
+               tempora perferendis eum non provident.
+             </p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="service-box">
+           <div class="service-ico">
+             <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+           </div>
+           <div class="service-content">
+             <h2 class="s-title">Cinematography and Image Films</h2>
+             <p class="s-description text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+               provident vitae! Magni
+               tempora perferendis eum non provident.
+             </p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="service-box">
+           <div class="service-ico">
+             <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+           </div>
+           <div class="service-content">
+             <h2 class="s-title">Photography</h2>
+             <p class="s-description text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+               provident vitae! Magni
+               tempora perferendis eum non provident.
+             </p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!--/ Section Services End /-->
 
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3 footer-grey">
+ <div class="section-counter paralax-mf bg-image" style="background-image: url(../img/details/14.png)">
+   <div class="overlay-mf"></div>
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-3 col-lg-3">
+         <div class="counter-box counter-box pt-4 pt-md-0">
+           <div class="counter-ico">
+             <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+           </div>
+           <div class="counter-num">
+             <p class="counter">275</p>
+             <span class="counter-text">WORKS COMPLETED</span>
+           </div>
+         </div>
+       </div>
+       <div class="col-sm-3 col-lg-3">
+         <div class="counter-box pt-4 pt-md-0">
+           <div class="counter-ico">
+             <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+           </div>
+           <div class="counter-num">
+             <p class="counter">5</p>
+             <span class="counter-text">YEARS OF EXPERIENCE</span>
+           </div>
+         </div>
+       </div>
+       <div class="col-sm-3 col-lg-3">
+         <div class="counter-box pt-4 pt-md-0">
+           <div class="counter-ico">
+             <span class="ico-circle"><i class="ion-ios-people"></i></span>
+           </div>
+           <div class="counter-num">
+             <p class="counter">56</p>
+             <span class="counter-text">TOTAL CLIENTS</span>
+           </div>
+         </div>
+       </div>
+       <div class="col-sm-3 col-lg-3">
+         <div class="counter-box pt-4 pt-md-0">
+           <div class="counter-ico">
+             <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+           </div>
+           <div class="counter-num">
+             <p class="counter">3</p>
+             <span class="counter-text">AWARD WON</span>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
 
-          <!-- Content -->
-          <h5 class="text-uppercase">Michael Mrzena</h5>
+ <!-- Footer -->
+ <footer class="page-footer font-small blue pt-4">
 
-        </div>
-        <!-- Grid column -->
+   <!-- Footer Links -->
+   <div class="container-fluid text-center text-md-left">
 
-        <hr class="clearfix w-100 d-md-none pb-3 footer-grey">
+     <!-- Grid row -->
+     <div class="row footer-grey">
 
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3 footer-grey">
+       <!-- Grid column -->
+       <div class="col-md-6 mt-md-0 mt-3 footer-grey">
 
-          <!-- Links -->
-          <h5 class="text-uppercase">Navigation</h5>
+         <!-- Content -->
+         <h5 class="text-uppercase">Michael Mrzena</h5>
 
-          <ul class="list-unstyled">
-            <li>
-              <a href="home.html">Home</a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+       </div>
+       <!-- Grid column -->
 
-        </div>
-        <!-- Grid column -->
+       <hr class="clearfix w-100 d-md-none pb-3 footer-grey">
 
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3 footer-grey">
+       <!-- Grid column -->
+       <div class="col-md-3 mb-md-0 mb-3 footer-grey">
 
-          <!-- Links -->
-          <h5 class="text-uppercase">Links</h5>
+         <!-- Links -->
+         <h5 class="text-uppercase">Navigation</h5>
 
-          <ul class="list-unstyled">
-            <li>
-              <a href="Impressum.html">Impressum</a>
-            </li>
-            <li>
-              <a href="AGB.html">AGB</a>
-            </li>
-            <li>
-              <a href="#!"></a>
-            </li>
+         <ul class="list-unstyled">
+           <li>
+             <a href="home.html">Home</a>
+           </li>
+           <li>
+             <a href="about.html">About</a>
+           </li>
+           <li>
+             <a href="portfolio.html">Portfolio</a>
+           </li>
+           <li>
+             <a href="contact.html">Contact</a>
+           </li>
+         </ul>
 
-        </div>
-        <!-- Grid column -->
+       </div>
+       <!-- Grid column -->
 
-      </div>
-      <!-- Grid row -->
+       <!-- Grid column -->
+       <div class="col-md-3 mb-md-0 mb-3 footer-grey">
 
-    </div>
-    <!-- Footer Links -->
+         <!-- Links -->
+         <h5 class="text-uppercase">Links</h5>
 
-    <!-- Social Media Icons -->
-    <div class="container social-media-container">
-      <div class="icon-container">
-        <a href="https://www.facebook.com/"><img src="../img/SVG/Facebook.svg" alt="" class=""></a>
-        <a href="https://twitter.com/?lang=en"><img src="../img/SVG/Twitter.svg" alt="" class=""></a>
-        <a href="https://www.instagram.com/_huskyarts/"><img src="../img/SVG/Instagram.svg" alt="" class=""></a>
-        <a href="https://www.youtube.com/channel/UCf5ryHyVEM3n8upXXzDWqww?view_as=subscriber"><img src="../img/SVG/Youtube.svg" alt="" class=""></a>
-      </div>
-    </div>
-    <!-- Social Media Icons -->
+         <ul class="list-unstyled">
+           <li>
+             <a href="Impressum.html">Impressum</a>
+           </li>
+           <li>
+             <a href="AGB.html">AGB</a>
+           </li>
+           <li>
+             <a href="#!"></a>
+           </li>
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-      <p>© Copyright 2019 Michael Jan Mrzena - All Rights Reserved</p>
-    </div>
-    <!-- Copyright -->
+       </div>
+       <!-- Grid column -->
 
-  </footer>
-  <!-- Footer -->
+     </div>
+     <!-- Grid row -->
 
+   </div>
+   <!-- Footer Links -->
+
+   <!-- Social Media Icons -->
+   <div class="container social-media-container">
+     <div class="icon-container">
+       <a href="https://www.facebook.com/"><img src="../img/SVG/Facebook.svg" alt="" class=""></a>
+       <a href="https://twitter.com/?lang=en"><img src="../img/SVG/Twitter.svg" alt="" class=""></a>
+       <a href="https://www.instagram.com/_huskyarts/"><img src="../img/SVG/Instagram.svg" alt="" class=""></a>
+       <a href="https://www.youtube.com/channel/UCf5ryHyVEM3n8upXXzDWqww?view_as=subscriber"><img src="../img/SVG/Youtube.svg" alt="" class=""></a>
+     </div>
+   </div>
+   <!-- Social Media Icons -->
+
+   <!-- Copyright -->
+   <div class="footer-copyright text-center py-3">
+     <p>© Copyright 2019 Michael Jan Mrzena - All Rights Reserved</p>
+   </div>
+   <!-- Copyright -->
+
+ </footer>
+ <!-- Footer -->
+
+ <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+ <!-- JavaScript Libraries -->
+ <script src="lib/jquery/jquery.min.js"></script>
+ <script src="lib/jquery/jquery-migrate.min.js"></script>
+ <script src="lib/popper/popper.min.js"></script>
+ <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+ <script src="lib/easing/easing.min.js"></script>
+ <script src="lib/counterup/jquery.waypoints.min.js"></script>
+ <script src="lib/counterup/jquery.counterup.js"></script>
+ <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+ <script src="lib/lightbox/js/lightbox.min.js"></script>
+ <script src="lib/typed/typed.min.js"></script>
+ <!-- Contact Form JavaScript File -->
+ <script src="contactform/contactform.js"></script>
+
+ <!-- Template Main Javascript File -->
+ <script src="js/main.js"></script>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
   <script type="text/javascript" src="../js/scripts.js"></script>
-  <script type="text/javascript" src="../js/page_transition.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

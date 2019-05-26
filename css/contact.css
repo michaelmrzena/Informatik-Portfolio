@@ -151,8 +151,11 @@ form{
 
 .form-container{
   position: relative;
-  top: 56px;
+  top: 15px;
 }
+
+
+
 
 .contact-form form .row{
     margin-bottom: -7%;
